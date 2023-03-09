@@ -8,5 +8,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: cd ${{ github.workspace }}
-      - run: make say-hello
+      - run: echo 'Hello, world!'
