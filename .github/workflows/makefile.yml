@@ -12,9 +12,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
-    - name: changeDirectory
-      run: cd hexlet-my-first-workflow
-      
-    - name: say-hello
-      run: make say-hello
+      - run: ls
