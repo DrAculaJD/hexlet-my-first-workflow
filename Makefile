@@ -1,2 +1,2 @@
 say-hello:
-	cat hello
+	echo 'Hello, world!'
